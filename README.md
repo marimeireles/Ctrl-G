@@ -54,7 +54,7 @@ The following code blocks are extracted from `tutorial_ctrlg.ipynb` and we refer
 
 In order to run the notebook you need to install extra packages:
 
-`conda install cudatoolkit huggingface_hub transformers triton==2.2.0`
+`conda install cudatoolkit huggingface_hub transformers triton==2.2.0 "transformers[sentencepiece]"`
 
 ### Step 1. Loading the pretrained LLM & HMM
 Here we load from `huggingface_hub` the pretrained base model checkpoint `ctrlg/gpt2-large_common-gen` and the corresponding HMM checkpoint `ctrlg/hmm_gpt2-large_common-gen_4096`.
